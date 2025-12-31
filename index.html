@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Runner</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    canvas {
+      display: block;
+      margin: 0 auto;
+      background: #050510;
+      border: 3px solid #00eaff;
+      box-shadow: 0 0 25px #00eaff;
+    }
+
+    #info {
+      margin-top: 10px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <canvas id="game" width="640" height="360"></canvas>
+  <div id="info">Press SPACE or UP to jump. Avoid the obstacles.</div>
+
+  <script src="game.js"></script>
+</body>
+</html>
